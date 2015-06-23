@@ -1,0 +1,9 @@
+@import '_colors&dimensions.scss';
+@import '_header.scss';
+@import '_mainContent.scss';
+
+.background { 
+	width: $background;
+	margin: auto;
+	font-family: sans-serif;
+}
