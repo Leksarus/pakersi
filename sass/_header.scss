@@ -56,8 +56,10 @@
 			height: 60px;
 			margin: auto;
 			&.mainPage {
-				width: 150px;
 				border-bottom: 2px ridge $red;
+				a {
+					width: 107px;
+				}
 			}
 			&.prices {
 				width: 80px;
@@ -81,7 +83,7 @@
 				text-decoration: none;
 				color: #000;
 				height: 70px;
-				display: table-cell;
+				display: block;
 				padding-top: 25px;
 				padding-left: 20px;
 				padding-right: 20px;

@@ -219,6 +219,7 @@
 			}
 		}
 		td:first-child {
+			vertical-align: top;
 			text-align: right;
 			line-height: 20px;
 			border-right: 1px solid $grey;
@@ -304,7 +305,7 @@
 		margin-top: 30px;
 		width: ($content)-40px;
 		padding-bottom: 30px;
-		background-color: $darkBackground;
+		background-color: $darkBackground; 
 		table {
 			th {
 				width: 326px;
@@ -314,6 +315,11 @@
 				font-size: 18px;
 				&.clientContact {
 					padding-left: 10px;
+				}
+			}
+			tr:last-child {
+				td:first-child {
+					border: 0;
 				}
 			}
 			td {
@@ -327,16 +333,16 @@
 					position: relative;
 					top: 5px;
 				}
-				&.firstCol {
-					border-bottom: 1px groove $grey;
+				&:nth-child(1) {
+					border-bottom: 3px groove $grey;
 					line-height: 40px;
 				}
-				&.noBorder {
+				&:nth-child(2) {
+					padding-left: 10px;
+				}
+				&:nth-child(3) {
 					border-bottom: 0;
 					padding-top: 10px;
-				}
-				&.secondCol {
-					padding-left: 10px;
 				}
 			}
 		}
