@@ -1,0 +1,525 @@
+/* line 1, ../sass/_header.scss */
+.header {
+  width: 1020px;
+  height: 206px;
+  margin: auto;
+  clear: both;
+}
+/* line 6, ../sass/_header.scss */
+.header .login, .header .register {
+  display: block;
+  float: right;
+  width: 110px;
+  height: 40px;
+  background-color: #d82828;
+  color: #FFF;
+  border-radius: 4px;
+  line-height: 40px;
+  text-decoration: none;
+  padding-left: 20px;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+/* line 22, ../sass/_header.scss */
+.header .login img, .header .register img {
+  position: relative;
+  left: 10px;
+  top: 2px;
+}
+/* line 28, ../sass/_header.scss */
+.header .register {
+  background-color: #e9e8e8;
+  color: #000;
+  width: 130px;
+}
+/* line 34, ../sass/_header.scss */
+.header span {
+  float: right;
+  font-size: 13px;
+  margin-top: 22px;
+  margin-right: 20px;
+}
+/* line 40, ../sass/_header.scss */
+.header img.logo {
+  float: left;
+  width: 230px;
+}
+/* line 44, ../sass/_header.scss */
+.header ul.menu {
+  margin-top: 60px;
+  padding-left: 0;
+  width: 1020px;
+  float: left;
+  list-style: none;
+}
+/* line 50, ../sass/_header.scss */
+.header ul.menu li {
+  width: 140px;
+  height: 50px;
+  float: left;
+  font-weight: inherit;
+  font-size: 14px;
+  height: 60px;
+  margin: auto;
+}
+/* line 58, ../sass/_header.scss */
+.header ul.menu li.mainPage {
+  border-bottom: 2px ridge #d82828;
+}
+/* line 60, ../sass/_header.scss */
+.header ul.menu li.mainPage a {
+  width: 107px;
+}
+/* line 64, ../sass/_header.scss */
+.header ul.menu li.prices {
+  width: 80px;
+}
+/* line 67, ../sass/_header.scss */
+.header ul.menu li.services {
+  width: 80px;
+}
+/* line 70, ../sass/_header.scss */
+.header ul.menu li.benefits {
+  width: 95px;
+}
+/* line 73, ../sass/_header.scss */
+.header ul.menu li.coop {
+  width: 110px;
+}
+/* line 76, ../sass/_header.scss */
+.header ul.menu li.createYourSpot {
+  width: 160px;
+}
+/* line 79, ../sass/_header.scss */
+.header ul.menu li.contact {
+  width: 80px;
+}
+/* line 82, ../sass/_header.scss */
+.header ul.menu li a {
+  text-decoration: none;
+  color: #000;
+  height: 70px;
+  display: block;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 91, ../sass/_header.scss */
+.header ul.menu li :hover {
+  color: #FFF;
+  background-color: #d82828;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  text-decoration: underline;
+}
+
+/* line 1, ../sass/_mainContent.scss */
+.mainContent {
+  margin: auto;
+  width: 1020px;
+  height: 450 px;
+  clear: both;
+}
+/* line 6, ../sass/_mainContent.scss */
+.mainContent .mainContentRight {
+  float: right;
+  width: 300px;
+}
+/* line 9, ../sass/_mainContent.scss */
+.mainContent .mainContentRight img.createOwnPoint {
+  width: 300px;
+  margin-bottom: 20px;
+}
+/* line 13, ../sass/_mainContent.scss */
+.mainContent .mainContentRight img.map {
+  width: 300px;
+}
+/* line 17, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft {
+  float: left;
+  width: 700px;
+  padding-right: 20px;
+}
+/* line 21, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool {
+  width: 700px;
+  height: 270px;
+  background-color: #d82828;
+}
+/* line 25, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool img.trio {
+  float: left;
+  height: 270px;
+}
+/* line 29, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool span.fisrtLine {
+  margin-top: 30px;
+  line-height: 85px;
+  color: #FFF;
+}
+/* line 33, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool span.fisrtLine img {
+  float: right;
+  padding-left: 30px;
+  margin-right: 40px;
+  width: 320px;
+}
+/* line 40, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool span.packageDimension {
+  margin-top: 10px;
+  margin-right: 35px;
+  color: #FFF;
+  float: left;
+  line-height: 10px;
+}
+/* line 46, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool span.packageDimension span {
+  padding-left: 145px;
+}
+/* line 51, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool div.interData img.cross {
+  margin-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+  width: 10px;
+}
+/* line 58, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool div.interData input {
+  padding-left: 20px;
+  margin-top: 12px;
+  float: left;
+  width: 80px;
+  height: 35px;
+  background-color: #FFF;
+}
+/* line 65, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool div.interData input.lenght {
+  padding-left: 30px;
+  width: 70px;
+}
+/* line 70, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool div.interData select.ammount {
+  width: 80px;
+  height: 35px;
+  float: left;
+  margin-left: 73px;
+  margin-top: 14px;
+  background-color: #ab1c1b;
+  border: 1px ridge #ab1c1b;
+  color: #FFF;
+  padding-left: 10px;
+}
+/* line 82, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool span.receiverCountry {
+  width: 550px;
+  float: left;
+  color: #FFF;
+  margin-top: 20px;
+}
+/* line 88, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool select.country {
+  width: 200px;
+  height: 35px;
+  float: left;
+  margin-top: 14px;
+  background-color: #ab1c1b;
+  border: 1px ridge #ab1c1b;
+  color: #FFF;
+  padding-left: 10px;
+}
+/* line 98, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool span.price {
+  line-height: 30px;
+  float: right;
+  width: 250px;
+  height: 30px;
+  color: #FFF;
+  padding-top: 12px;
+}
+/* line 105, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.tool span.price span {
+  font-size: 35px;
+  position: relative;
+  left: 10px;
+  top: 5px;
+}
+/* line 113, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft span.specialConditions {
+  float: left;
+  display: block;
+  width: 500px;
+  height: 50px;
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+/* line 121, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft span.specialConditions a {
+  color: #000;
+}
+/* line 125, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft a.orderCourier {
+  float: right;
+  width: 125px;
+  height: 40px;
+  color: #FFF;
+  background-color: #000;
+  padding-left: 15px;
+  line-height: 40px;
+  text-decoration: none;
+  border-radius: 0 0 4px 4px;
+  font-size: 13px;
+}
+/* line 137, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.monit {
+  margin-top: 50px;
+  width: 680px;
+  height: 110px;
+  background-color: #e9e8e8;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+/* line 144, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.monit span {
+  color: #3A4047;
+  font-size: 20px;
+  width: 680px;
+  float: left;
+}
+/* line 150, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.monit span.search {
+  margin-top: 20px;
+  float: left;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #FFF;
+  border: 2px ridge #6A7D91;
+  border-right: 0;
+  border-radius: 4px 0 0 4px;
+}
+/* line 160, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.monit span.search img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+/* line 168, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.monit img {
+  position: relative;
+  bottom: 100px;
+  right: 160px;
+  height: 120px;
+}
+/* line 174, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.monit input {
+  margin-top: 20px;
+  padding-left: 20px;
+  display: block;
+  float: left;
+  width: 430px;
+  height: 38px;
+  border: 2px ridge #6A7D91;
+  border-radius: 0 4px 4px 0;
+}
+/* line 184, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.monit a.findDelivery {
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-left: 10px;
+  line-height: 42px;
+  text-decoration: none;
+  float: left;
+  width: 140px;
+  height: 42px;
+  color: #FFF;
+  background-color: #d82828;
+  font-size: 13px;
+  border-radius: 4px;
+}
+/* line 198, ../sass/_mainContent.scss */
+.mainContent .mainContentLeft div.monit .address {
+  position: relative;
+  bottom: 325px;
+  left: 830px;
+  width: 200px;
+  height: 84px;
+}
+/* line 207, ../sass/_mainContent.scss */
+.mainContent table.news {
+  padding-left: 20px;
+  margin-top: 30px;
+  float: left;
+  width: 700px;
+}
+/* line 212, ../sass/_mainContent.scss */
+.mainContent table.news th {
+  color: #3A4047;
+  font-weight: inherit;
+  text-align: left;
+  font-size: 20px;
+}
+/* line 217, ../sass/_mainContent.scss */
+.mainContent table.news th img {
+  margin-left: 520px;
+}
+/* line 221, ../sass/_mainContent.scss */
+.mainContent table.news td:first-child {
+  vertical-align: top;
+  text-align: right;
+  line-height: 20px;
+  border-right: 1px solid #e9e8e8;
+  padding-right: 15px;
+}
+/* line 228, ../sass/_mainContent.scss */
+.mainContent table.news td.newsTitile {
+  padding-left: 15px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+/* line 233, ../sass/_mainContent.scss */
+.mainContent table.news td.newsContent {
+  padding-top: 20px;
+  padding-left: 10px;
+  text-align: left;
+  border-right: 0;
+}
+/* line 240, ../sass/_mainContent.scss */
+.mainContent table.trust {
+  padding-left: 20px;
+  margin-top: 25px;
+  margin-left: 20px;
+  float: left;
+  width: 300px;
+}
+/* line 246, ../sass/_mainContent.scss */
+.mainContent table.trust th {
+  color: #3A4047;
+  font-weight: inherit;
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 16px;
+}
+/* line 253, ../sass/_mainContent.scss */
+.mainContent table.trust img {
+  width: 250px;
+}
+/* line 258, ../sass/_mainContent.scss */
+.mainContent div.lowerGraphics1, .mainContent div.lowerGraphics2, .mainContent div.lowerGraphics3 {
+  margin-top: 30px;
+  float: left;
+  width: 326px;
+  height: 160px;
+  margin-right: 20px;
+  background: url("../images/become-partner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* line 267, ../sass/_mainContent.scss */
+.mainContent div.lowerGraphics1 a, .mainContent div.lowerGraphics2 a, .mainContent div.lowerGraphics3 a {
+  display: block;
+  width: 135px;
+  height: 35px;
+  color: #FFF;
+  background-color: #141314;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 35px;
+  position: relative;
+  padding-left: 10px;
+  top: 98px;
+  left: 30px;
+  border-radius: 4px;
+}
+/* line 283, ../sass/_mainContent.scss */
+.mainContent div.lowerGraphics2 {
+  background: url("../images/delivery-24.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* line 289, ../sass/_mainContent.scss */
+.mainContent div.lowerGraphics3 {
+  float: left;
+  margin-right: 0;
+  background: url("../images/constant-coop.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* line 296, ../sass/_mainContent.scss */
+.mainContent div.lowerGraphics3 a {
+  background-color: #d82828;
+}
+/* line 301, ../sass/_mainContent.scss */
+.mainContent div.lowerContent {
+  padding-left: 40px;
+  padding-top: 30px;
+  float: left;
+  margin-top: 30px;
+  width: 980px;
+  padding-bottom: 30px;
+  background-color: #141314;
+}
+/* line 310, ../sass/_mainContent.scss */
+.mainContent div.lowerContent table th {
+  width: 326px;
+  text-align: left;
+  color: #FFF;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+/* line 316, ../sass/_mainContent.scss */
+.mainContent div.lowerContent table th.clientContact {
+  padding-left: 10px;
+}
+/* line 321, ../sass/_mainContent.scss */
+.mainContent div.lowerContent table tr:last-child td:first-child {
+  border: 0;
+}
+/* line 325, ../sass/_mainContent.scss */
+.mainContent div.lowerContent table td {
+  width: 326px;
+  color: #6A7D91;
+}
+/* line 328, ../sass/_mainContent.scss */
+.mainContent div.lowerContent table td a {
+  text-decoration: none;
+  color: #6A7D91;
+}
+/* line 332, ../sass/_mainContent.scss */
+.mainContent div.lowerContent table td img {
+  position: relative;
+  top: 5px;
+}
+/* line 336, ../sass/_mainContent.scss */
+.mainContent div.lowerContent table td:nth-child(1) {
+  border-bottom: 3px groove #e9e8e8;
+  line-height: 40px;
+}
+/* line 340, ../sass/_mainContent.scss */
+.mainContent div.lowerContent table td:nth-child(2) {
+  padding-left: 10px;
+}
+/* line 343, ../sass/_mainContent.scss */
+.mainContent div.lowerContent table td:nth-child(3) {
+  border-bottom: 0;
+  padding-top: 10px;
+}
+/* line 350, ../sass/_mainContent.scss */
+.mainContent span.copyrights {
+  font-size: 12px;
+  color: #6A7D91;
+  line-height: 60px;
+}
+
+/* line 5, ../sass/main.scss */
+.background {
+  width: 1180px;
+  margin: auto;
+  font-family: sans-serif;
+}
