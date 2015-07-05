@@ -1,0 +1,355 @@
+.mainContent {
+	margin: auto;
+	width: $content;
+	height: 450 px;
+	clear: both;
+	.mainContentRight {
+		float: right;
+		width: 300px;
+		img.createOwnPoint {
+			width: 300px;
+			margin-bottom: 20px;
+		}
+		img.map {
+			width: 300px;
+		}
+	}
+	.mainContentLeft {
+		float: left;
+		width: 700px;
+		padding-right: 20px;
+		div.tool {
+			width: 700px;
+			height: 270px;
+			background-color: $red;
+			img.trio {
+				float: left;
+				height: 270px;
+			}
+			span.fisrtLine {
+				margin-top: 30px;
+				line-height: 85px;
+				color: #FFF;
+				img {
+					float: right;
+					padding-left: 30px;
+					margin-right: 40px;
+					width: 320px;
+				}
+			}
+			span.packageDimension {
+				margin-top: 10px;
+				margin-right: 35px;
+				color: #FFF;
+				float: left;
+				line-height: 10px;
+				span {
+					padding-left: 145px;
+				}
+			}
+			div.interData{
+				img.cross {
+					margin-top: 30px;
+					padding-left: 5px;
+					padding-right: 5px;
+					float: left;
+					width: 10px;
+				}
+				input {
+					padding-left: 20px;
+					margin-top: 12px;
+					float: left;
+					width: 80px;
+					height: 35px;
+					background-color: #FFF;
+					&.lenght {
+						padding-left: 30px;
+						width: 70px;
+					}
+				}
+				select.ammount {
+					width: 80px;
+					height: 35px;
+					float: left;
+					margin-left: 73px;
+					margin-top: 14px;
+					background-color: $darkRed;
+					border: 1px ridge $darkRed;
+					color: #FFF;
+					padding-left: 10px;
+				}
+			}	
+			span.receiverCountry {
+				width: 550px;
+				float: left;
+				color: #FFF;
+				margin-top: 20px;
+			}
+			select.country {
+				width: 200px;
+				height: 35px;
+				float: left;
+				margin-top: 14px;
+				background-color: $darkRed;
+				border: 1px ridge $darkRed;
+				color: #FFF;
+				padding-left: 10px;	
+			}
+			span.price {
+				line-height: 30px;
+				float: right;
+				width: 250px;
+				height: 30px;
+				color: #FFF;
+				padding-top: 12px;
+				span {
+					font-size: 35px;
+					position: relative;
+					left: 10px;
+					top: 5px;
+				}
+			}
+		}
+		span.specialConditions {
+			float: left;
+			display: block;
+			width: 500px;
+			height: 50px;
+			padding-left: 20px;
+			margin-top: 10px;
+			font-size: 12px;
+			a {
+				color: #000;
+			}
+		}
+		a.orderCourier {
+			float: right;
+			width: 125px;
+			height: 40px;
+			color: #FFF;
+			background-color: #000;
+			padding-left: 15px;
+			line-height: 40px;
+			text-decoration: none;
+			border-radius: 0 0 4px 4px;
+			font-size: 13px;
+		}
+		div.monit {
+			margin-top: 50px;
+			width: 680px;
+			height: 110px;
+			background-color: $grey;
+			padding-top: 20px;
+			padding-left: 20px;
+			span {
+				color: $darkFont;
+				font-size: 20px;
+				width: 680px;
+				float: left;
+			}
+			span.search {
+				margin-top: 20px;
+				float: left;
+				display: block;
+				width: 40px;
+				height: 40px;
+				background-color: #FFF;
+				border: 2px ridge $darkGrey;
+				border-right: 0;
+				border-radius: 4px 0 0 4px;
+				img {
+					width: 20px;
+					height: 20px;
+					position: relative;
+					left: 10px;
+					top: 10px;
+				}
+			}
+			img {
+				position: relative;
+				bottom: 100px;
+				right: 160px;
+				height: 120px;
+			}
+			input{
+				margin-top: 20px;
+				padding-left: 20px;
+				display: block;
+				float: left;
+				width: 430px;
+				height: 38px;
+				border: 2px ridge $darkGrey;
+				border-radius: 0 4px 4px 0;
+			}
+			a.findDelivery {
+				margin-left: 20px;
+				margin-top: 20px;
+				padding-left: 10px;
+				line-height: 42px;
+				text-decoration: none;
+				float: left;
+				width: 140px;
+				height: 42px;
+				color: #FFF;
+				background-color: $red;
+				font-size: 13px;
+				border-radius: 4px; 
+			}
+			.address {
+				position: relative;
+				bottom: 325px;
+				left: 830px;
+				width: 200px;
+				height: 84px;	
+			}
+		}
+	}
+	table.news {
+		padding-left: 20px;
+		margin-top: 30px;
+		float: left;
+		width: 700px;
+		th {
+			color: $darkFont;
+			font-weight: inherit;
+			text-align: left;
+			font-size: 20px;
+			img {
+				margin-left: 520px;
+			}
+		}
+		td:first-child {
+			vertical-align: top;
+			text-align: right;
+			line-height: 20px;
+			border-right: 1px solid $grey;
+			padding-right: 15px;
+		}	
+		td.newsTitile {
+			padding-left: 15px;
+			padding-top: 10px;
+			font-weight: bold;
+		}
+		td.newsContent {
+			padding-top: 20px;
+			padding-left: 10px;
+			text-align: left;
+			border-right: 0;
+		}
+	}
+	table.trust {
+		padding-left: 20px;
+		margin-top: 25px;
+		margin-left: 20px;
+		float: left;
+		width: 300px;
+		th {
+			color: $darkFont;
+			font-weight: inherit;
+			text-align: left;
+			font-size: 20px;
+			padding-bottom: 16px;
+		}
+		img {
+			width: 250px;
+		}
+	}
+	div {
+		&.lowerGraphics1 {
+			margin-top: 30px;
+			float: left;
+			width: 326px;
+			height: 160px;
+			margin-right: 20px;
+			background: url('../images/become-partner.png');
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			a {
+				display: block;
+				width: 135px;
+				height: 35px;
+				color: #FFF;
+				background-color: $darkBackground;
+				font-size: 12px;
+				text-decoration: none;
+				line-height: 35px;
+				position: relative;
+				padding-left: 10px;
+				top: 98px;
+				left: 30px;
+				border-radius: 4px;
+			}
+		}
+		&.lowerGraphics2 {
+			@extend .lowerGraphics1;
+			background: url('../images/delivery-24.png');
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+		&.lowerGraphics3 {
+			@extend .lowerGraphics1;
+			float: left;
+			margin-right: 0;
+			background: url('../images/constant-coop.png');
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			a{
+				background-color: $red;
+			}
+		}
+	}
+	div.lowerContent {
+		padding-left: 40px;
+		padding-top: 30px;
+		float: left;
+		margin-top: 30px;
+		width: ($content)-40px;
+		padding-bottom: 30px;
+		background-color: $darkBackground; 
+		table {
+			th {
+				width: 326px;
+				text-align: left;
+				color: #FFF;
+				padding-bottom: 30px;
+				font-size: 18px;
+				&.clientContact {
+					padding-left: 10px;
+				}
+			}
+			tr:last-child {
+				td:first-child {
+					border: 0;
+				}
+			}
+			td {
+				width: 326px;
+				color: $darkGrey;
+				a {
+					text-decoration: none;
+					color: $darkGrey;
+				}
+				img {
+					position: relative;
+					top: 5px;
+				}
+				&:nth-child(1) {
+					border-bottom: 3px groove $grey;
+					line-height: 40px;
+				}
+				&:nth-child(2) {
+					padding-left: 10px;
+				}
+				&:nth-child(3) {
+					border-bottom: 0;
+					padding-top: 10px;
+				}
+			}
+		}
+	}	
+	span.copyrights {
+		font-size: 12px;
+		color: $darkGrey;
+		line-height: 60px;
+	}
+}
